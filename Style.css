@@ -1,0 +1,54 @@
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 15px lightgray;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+.recipe {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.recipe img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.recipe h3 {
+  margin: 10px 0 5px 0;
+}
